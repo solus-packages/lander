@@ -2,8 +2,8 @@
     <Source>
         <Name>lander</Name>
         <Packager>
-            <Name>Kevin Parnell</Name>
-            <Email>kevinparnell99@gmail.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Packager>
         <License>GPL-3.0</License>
         <PartOf>games.arcade</PartOf>
@@ -12,7 +12,7 @@
 * x shoots
 * c moves right
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>lander</Name>
@@ -23,16 +23,16 @@
 </Description>
         <PartOf>games.arcade</PartOf>
         <Files>
-            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="executable">/usr/bin/lander</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-12-05</Date>
+        <Update release="2">
+            <Date>2019-06-12</Date>
             <Version>1.3</Version>
             <Comment>Packaging update</Comment>
-            <Name>Kevin Parnell</Name>
-            <Email>kevinparnell99@gmail.com</Email>
+            <Name>Bryan T. Meyers</Name>
+            <Email>bmeyers@datadrake.com</Email>
         </Update>
     </History>
 </PISI>
